@@ -1,0 +1,34 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{lmodern}
+\renewcommand{\familydefault}{\sfdefault}  % Set Helvetica as the default font
+\usepackage{fancyhdr}
+\usepackage{lipsum}  % For dummy text
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\leftmark}
+\fancyfoot[C]{\thepage}
+
+\begin{document}
+
+\title{My LaTeX Document}
+\author{Author Name}
+\date{\today}
+\maketitle
+
+\tableofcontents
+\newpage
+
+\section{Introduction}
+\subsection{Introduction of Work}
+\subsubsection{Introduction of Work}
+
+
+\lipsum[1-2]  % Dummy text
+
+\newpage
+\section{Main Content}
+\lipsum[3-5]  % Dummy text
+
+\end{document}

@@ -1,7 +1,8 @@
-src/
-*.aux
-*.log
-*.toc
-*.out
-*.fls
-*.fdb_latexmk
+
+**/*.aux
+**/*.log
+**/*.toc
+**/*.out
+**/*.fls
+**/*.fdb_latexmk
+**/*.gz
