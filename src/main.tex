@@ -1,34 +1,30 @@
-\documentclass[12pt,a4paper]{article}
-\usepackage[a4paper, margin=1in]{geometry}
-\usepackage{lmodern}
-\renewcommand{\familydefault}{\sfdefault}  % Set Helvetica as the default font
-\usepackage{fancyhdr}
-\usepackage{lipsum}  % For dummy text
+\documentclass[a4paper,12pt]{report}
 
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[L]{\leftmark}
-\fancyfoot[C]{\thepage}
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{lipsum}
+
+% Title Page
+\title{Enhancing Automotive Ethernet Software: Unit Testing with Google Test Framework, MISRA Compliance, and Report Automation at Vector GmbH}
+\author{Your Name \\ \textbf{Company: Vector GmbH} \\ University Name}
+\date{\today}
 
 \begin{document}
 
-\title{My LaTeX Document}
-\author{Author Name}
-\date{\today}
+% Title Page
 \maketitle
 
+% Table of Contents
 \tableofcontents
 \newpage
 
-\section{Introduction}
-\subsection{Introduction of Work}
-\subsubsection{Introduction of Work}
-
-
-\lipsum[1-2]  % Dummy text
-
-\newpage
-\section{Main Content}
-\lipsum[3-5]  % Dummy text
+% Include sections
+\input{introduction_section.tex}
+\input{gtest_section.tex}
+\input{misra_section.tex}
+\input{automation_sectiontex}
 
 \end{document}
